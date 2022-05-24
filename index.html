@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+    <title>Luiz Henrique</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Luiz Henrique</a>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link"
+                ><i class="bi bi-house nav_icon"></i>Home</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link"
+                ><i class="bi bi-file-earmark-person nav_icon"></i>Sobre</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link"
+                ><i class="bi bi-file-earmark-check nav_icon"></i>Habilidades</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link"
+                ><i class="bi bi-briefcase nav_icon"></i>Serviços</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link"
+                ><i class="bi bi-person-lines-fill nav_icon"></i>Portfolio</a
+              >
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link"
+                ><i class="bi bi-envelope nav_icon"></i>Contatos</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-x nav_close" id="nav_close"></i>
+        </div>
+        <div class="nav-btns">
+          <div class="nav_toggle" id="nav_toggle">
+            <i class="bi bi-menu-button"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--xxxxxxxxxxxxxxxxxxxx main xxxxxxxxxxxxxxxxxxxx -->
+    <main class="main">
+      <!--xxxxxxxxxxxx xxxx home xxxxxxxxxxx -->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a href="#" class="home_social-icon" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="#" class="home_social-icon" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="#" class="home_social-icon" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="home_social-icon" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+            <div class="home_img">
+              <svg
+                class="home_blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home_blob-img"
+                    x="15"
+                    y="18"
+                    xlink:href="./img/assets/foto-removebg-preview.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">Olá, meu nome é Luiz Henrique</h1>
+              <h3 class="home_subtitle">Desenvolvedor frontend</h3>
+              <p class="home_description">
+                Experiencia com desenvolvimento frontend usando ReactJS, Html,
+                css, Javascript, entre outras linguagens
+              </p>
+              <a href="#contact" class="buttom buttom-flex">
+                Contato <i class="bi bi-chat-right-text buttom_icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll_buttom buttom-flex">
+              <i class="bi bi-mouse home_scroll_mouse"></i>
+              <span class="home_scroll_name"> Role para baixo </span>
+              <i class="bi bi-caret-down home_scroll_arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Sobre  -->
+      <section class="about section" id="about">
+        <h2 class="section_title">Sobre mim</h2>
+        <span class="section_subtitle">Um pouco de mim</span>
+        <div class="about_container container grid">
+          <img
+            class="about_img"
+            src="./img/assets/foto-removebg-preview.png"
+            alt=""
+          />
+
+          <div class="about_data">
+            <p class="about_description">
+              Experiencia com desenvolvimento frontend usando ReactJS, Html,
+              css, Javascript, entre outras linguagens
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="about_info_title">8+</span>
+                <span class="about_info_name"
+                  >anos <br />
+                  Experiencia</span
+                >
+              </div>
+
+              <div>
+                <span class="about_info_title">2+</span>
+                <span class="about_info_name"
+                  >anos <br />
+                  na mesma empresa</span
+                >
+              </div>
+
+              <div>
+                <span class="about_info_title">10+</span>
+                <span class="about_info_name"
+                  >Eletronica do Luiz<br />
+                  Tecnico em eletronica</span
+                ><br />
+                <span class="about_info_title">2+</span>
+                <span class="about_info_name"
+                  >Eletronica do Luiz<br />
+                  Desenvolvedor frontend</span
+                >
+              </div>
+            </div>
+            <div class="about_buttons">
+              <a
+                download=""
+                href="./img/assets/Luiz Henrique2.pdf"
+                class="buttom buttom-flex"
+                >Download CV<i class="bi bi-download buttom_icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Habilidades  -->
+      <section class="skilss section" id="skills">
+        <h2 class="section_title">Habilidades</h2>
+        <span class="section_subtitle">Minhas habilidades técnicas</span>
+
+        <div class="skills_container container grid">
+          <div>
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <i class="bi bi-braces skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Desenvolvedor frontend</h1>
+                  <span class="skills_subtitle">a mais de 2 anos</span>
+                </div>
+                <i class="bi bi-caret-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number">90%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_html"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number">85%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_css"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Javascript</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_js"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">React JS</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="bi bi-server skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Desenvolvedor backend</h1>
+                  <span class="skills_subtitle">a mais de 1 ano</span>
+                </div>
+                <i class="bi bi-caret-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">PHP</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_php"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Node JS</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_node"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">SQL</h3>
+                    <span class="skills_number">65%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_sql"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Python</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_py"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Qualificações  -->
+
+      <section class="qualification section">
+        <h2 class="section_title">Qualificações</h2>
+        <span class="section_subtitle">Minhas qualificações academicas</span>
+        <div class="qualification_container container">
+          <div class="qualification_tabs">
+            <div
+              class="qualification_buttom buttom-flex qualification_active"
+              data-target="#work"
+            >
+              <i class="bi bi-mortarboard qualification_icon"></i>
+              Graduação
+            </div>
+            <div
+              class="qualification_buttom buttom-flex"
+              data-target="#education"
+            >
+              <i class="bi bi-briefcase qualification_icon"></i>
+              Especialização
+            </div>
+          </div>
+          <div class="qualification_sections">
+            <!-- Qualification content 1 -->
+            <div
+              class="qualification_content qualification_active"
+              data-content
+              id="education"
+            >
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification_title">Desenvolvedor Python</h3>
+                  <span class="qualification_subtitle">
+                    Hora de Codar - OnLine</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="bi bi-calendar3"></i>
+                    2021 - 2022
+                  </div>
+                </div>
+              </div>
+
+              <!-- qualificação 5  -->
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification_title">Desenvolvedor frontend</h3>
+                  <span class="qualification_subtitle"> YouTube - OnLine</span>
+                  <div class="qualification_calendar">
+                    <i class="bi bi-calendar3"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Qualification content 2  -->
+            <div class="qualification_content" data-content id="work">
+              <!-- qualificação 1  -->
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Sistemas para Internet</h3>
+                  <span class="qualification_subtitle">FAETERJ - BM</span>
+                  <div class="qualification_calendar">
+                    <i class="bi bi-calendar3"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+
+              <!-- qualificação 2  -->
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">Web Design</h3>
+                  <span class="qualification_subtitle">Udemy - OnLine</span>
+                  <div class="qualification_calendar">
+                    <i class="bi bi-calendar3"></i>
+                    2021 - 2022
+                  </div>
+                </div>
+              </div>
+
+              <!-- qualificação 3  -->
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Desenvolvedor Backend</h3>
+                  <span class="qualification_subtitle">
+                    Hora de Codar - OnLine</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="bi bi-calendar3"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- serviços  -->
+      <section class="service section" id="services">
+        <h2 class="section_title">Serviços</h2>
+        <span class="section_subtitle">O que eu ofereço</span>
+        <div class="services_container container grid">
+          <!-- services 1  -->
+          <div class="services_content">
+            <div>
+              <i class="bi bi-columns-gap services_icon"></i>
+              <h3 class="services_title">
+                Ui/Ux <br />
+                Designer
+              </h3>
+            </div>
+            <span
+              class="buttom buttom-flex buttom-small buttom-link services_buttom"
+            >
+              Ver Mais
+              <i class="bi bi-arrow-right buttom_icon"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  Ui/Ux <br />
+                  Designer
+                </h4>
+                <i class="bi bi-x-lg services_modal-close"></i>
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo interface de usuário</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo paginas da Web</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Eu crio interações de elementos Ux</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo a logo da sua empresa</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- services 2  -->
+          <div class="services_content">
+            <div>
+              <i class="bi bi-code services_icon"></i>
+              <h3 class="services_title">
+                Desenvolvedor <br />
+                Frontend
+              </h3>
+            </div>
+            <span
+              class="buttom buttom-flex buttom-small buttom-link services_buttom"
+            >
+              Ver Mais
+              <i class="bi bi-arrow-right buttom_icon"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  Desenvolvedor <br />
+                  Frontend
+                </h4>
+                <i class="bi bi-x-lg services_modal-close"></i>
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo interface de usuário</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo paginas da Web</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Eu crio interações de elementos Ux</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo a logo da sua empresa</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- services 3  -->
+          <div class="services_content">
+            <div>
+              <i class="bi bi-pencil services_icon"></i>
+              <h3 class="services_title">
+                Web <br />
+                Designer
+              </h3>
+            </div>
+            <span
+              class="buttom buttom-flex buttom-small buttom-link services_buttom"
+            >
+              Ver Mais
+              <i class="bi bi-arrow-right buttom_icon"></i>
+            </span>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  Web <br />
+                  Designer
+                </h4>
+                <i class="bi bi-x-lg services_modal-close"></i>
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo interface de usuário</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo paginas da Web</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Eu crio interações de elementos Ux</p>
+                  </li>
+
+                  <li class="services_modal-service">
+                    <i class="bi bi-check-circle services_modal-icon"></i>
+                    <p>Desenvolvo a logo da sua empresa</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio  -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfólio</h2>
+        <span class="section_subtitle">Trabalhos mais recentes</span>
+
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- portfolio 1  -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="./img/assets/logo Emprea.jpg"
+                alt="Primeiro trabalho"
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">
+                  Website para Assistencia Tecnica
+                </h3>
+                <p class="portfolio_description">
+                  Website adaptavel para diversos tamanhos de dispositivos
+                  dentre eles podemos citar o celular, tablet e desktops.
+                </p>
+                <a
+                  href="#"
+                  class="buttom buttom_flex buttom_small portfolio_buttom"
+                >
+                  Demo
+                  <i class="bi bi-arrow-right buttom_icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- portfolio 2  -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="./img/assets/hrz-1.jpg"
+                alt="Trabalho landinpage"
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Landing page InDecor</h3>
+                <p class="portfolio_description">
+                  Landing page ficticia para evento de decoração. tambem
+                  adaptavel para diversos tamanhos de dispositivos.
+                </p>
+                <a
+                  href="#"
+                  class="buttom buttom_flex buttom_small portfolio_buttom"
+                >
+                  Demo
+                  <i class="bi bi-arrow-right buttom_icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="./img/assets/servico-social.jpg"
+                alt="Assistencia social"
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Assistente Social</h3>
+                <p class="portfolio_description">
+                  O assistente social atua para orientar os usuarios sobre seus
+                  direitos garantidos pela contituição brasileira.
+                </p>
+                <a
+                  href="#"
+                  class="buttom buttom_flex buttom_small portfolio_buttom"
+                >
+                  Demo
+                  <i class="bi bi-arrow-right buttom_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- add arrows  -->
+          <div class="arrow">
+            <div class="swiper-buttom-next">
+              <i class="bi bi-chevron-left swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-buttom-prev">
+              <i class="bi bi-chevron-right swiper-portfolio-icon"></i>
+            </div>
+          </div>
+          <!-- add pagination  -->
+        </div>
+      </section>
+
+      <section class="project section">
+        <div class="project_bg">
+          <div class="project_container container grid">
+            <div class="project_data">
+              <h2 class="project_title">Voce tem um novo projeto?</h2>
+              <p class="project_description">
+                Contate-me agora e tenha um desconto de 30% no seu novo projeto.
+              </p>
+              <a href="#contact" class="buttom buttom-flex buttom-white">
+                Contato
+                <i class="bi bi-whatsapp project_icon buttom_icon"></i>
+              </a>
+            </div>
+            <img
+              src="./img/assets/project-removebg-preview.png"
+              alt="projetos"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Meus contatos</h2>
+        <span class="section_subtitle"> Entre em contato </span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="bi bi-telephone contact_icon"></i>
+              <i class="bi bi-whatsapp contact_icon"></i>
+              <h3 class="contact_title">Me ligue ou mande MSG</h3>
+              <span class="contact_subtitle">(+55) 24 98819-5060</span>
+            </div>
+
+            <div class="contact_information">
+              <i class="bi bi-envelope contact_icon"></i>
+              <h3 class="contact_title">Email</h3>
+              <span class="contact_subtitle">
+                eletronica.do.luiz@gmail.com
+              </span>
+              <br />
+              <span class="contact_subtitle">
+                4connections.solucoes@gmail.com
+              </span>
+            </div>
+
+            <div class="contact_information">
+              <i class="bi bi-geo-alt contact_icon"></i>
+              <h3 class="contact_title">Faça-nos uma visita</h3>
+              <span class="contact_subtitle">
+                Rua 31 26 Freitas Soares <br />
+                Porto Real - RJ cep 27570000 <br />
+                Brasil
+              </span>
+            </div>
+          </div>
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Nome</label>
+                <input type="text" class="contact_input" />
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input" />
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Projeto</label>
+              <input type="text" class="contact_input" />
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Mensagem</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact_input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="#" class="buttom buttom-flex">
+                Enviar Mensagem
+                <i class="bi bi-send buttom_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer_bg">
+          <div class="footer_container container grid">
+            <div>
+              <h1 class="footer_title">Luiz Henrique</h1>
+              <span class="footer_subtitle">Desenvolvedor Frontend</span>
+            </div>
+            <ul class="footer_links">
+              <li>
+                <a href="#services" class="footer_link">Serviços</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer_link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer_link">Contato</a>
+              </li>
+            </ul>
+            <div class="footer_socials">
+              <a href="" class="footer_social" target="_blank">
+                <i class="bi bi-facebook"></i
+              ></a>
+              <a href="" class="footer_social" target="_blank">
+                <i class="bi bi-instagram"></i
+              ></a>
+              <a href="" class="footer_social" target="_blank">
+                <i class="bi bi-linkedin"></i
+              ></a>
+              <a href="" class="footer_social" target="_blank">
+                <i class="bi bi-whatsapp"></i
+              ></a>
+              <a href="" class="footer_social" target="_blank">
+                <i class="bi bi-github"></i
+              ></a>
+            </div>
+          </div>
+          <p class="footer_copy">
+            &#169; Eletronica do Luiz. Todos Direitos Reservados
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
