@@ -831,9 +831,13 @@ background-color: var(--text-color-light);
   }
   .portfolio_content,
   .project_container,
-  .contact_container,
+  
   .footer_container{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .contact_info{
+    display: flex;
+    justify-content: space-between;
   }
   .qualification_sections{
     display: grid;
